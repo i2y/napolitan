@@ -1,0 +1,7 @@
+packages = []
+
+[files]
+"napolitan/core.py" = "napolitan/core.py"
+"napolitan/livingstandard.py" = "napolitan/livingstandard.py"
+"napolitan/shoelace.py" = "napolitan/shoelace.py"
+"napolitan/nord.py" = "napolitan/nord.py"

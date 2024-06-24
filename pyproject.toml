@@ -1,0 +1,26 @@
+[project]
+name = "napolitan"
+version = "1.0.0"
+description = "Napolitan is a lightweight library for creating Web Components in PyScript."
+authors = [{ name = "Yasushi Itoh", email = "i2y@icloud.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+readme = "README.md"
+
+dependencies = []
+
+[project.urls]
+homepage = "https://github.com/i2y/napolitan"
+repository = "https://github.com/i2y/napolitan"
+documentation = "https://i2y.github.io/napolitan"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pip>=24.0",
+    "mkdocs>=1.6.0",
+    "mkdocs-material>=9.5.20",
+    "pymdown-extensions>=10.8.1",
+]
